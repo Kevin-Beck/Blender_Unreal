@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+dist/
+# Copies made by tools/sync_core.py; the source of truth is /core
+blender_addon/unreal_link/core/
+unreal_plugin/UnrealLink/Content/Python/unreal_link/core/
+unreal_plugin/UnrealLink/Binaries/
+unreal_plugin/UnrealLink/Intermediate/
+*.blend1

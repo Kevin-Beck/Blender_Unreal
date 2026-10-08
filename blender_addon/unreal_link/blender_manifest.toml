@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+
+id = "unreal_link"
+version = "0.1.0"
+name = "Unreal Link"
+tagline = "Send rigged characters to Unreal and keep them correct on every update"
+maintainer = "Kevin <kab5417@gmail.com>"
+type = "add-on"
+blender_version_min = "5.0.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Writes export jobs into the Unreal project folder"
+network = "Talks to the Unreal editor over its local remote-execution protocol"
